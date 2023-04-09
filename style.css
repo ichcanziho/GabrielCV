@@ -228,7 +228,7 @@ html{
 }
 .formation .contenido-seccion h3{
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .formation .contenido-seccion table{
@@ -269,6 +269,46 @@ html{
 .formation .contenido-seccion table .info{
     padding-top: 10px;
 }
+
+/* SECCION TRABAJO */
+
+
+.tech-list {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tech-item {
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border: 2px solid #940253;
+    background-color: #c4c4c4;
+    color: #000;
+    font-weight: bold;    
+  }
+
+  .tech-item a {
+    text-decoration: none;
+  }
+
+.tech-item a:visited {
+    text-decoration: none;
+  }
+  
+  .tech-item:hover {
+    background-color: #940253;
+    color: #fff;
+  }
+  
 
   /* SECCION CONTACTO */
   .contacto{
